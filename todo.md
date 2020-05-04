@@ -1,0 +1,1 @@
+- Turn off wifi when connected to USB
