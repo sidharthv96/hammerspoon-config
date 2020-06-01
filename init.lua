@@ -36,22 +36,22 @@ Install:andUse("ClipboardTool",
 -- )
 
 -- Load Seal - This is a pretty simple implementation of something like Alfred
-Install:andUse("Seal",
-  {
-    hotkeys = {
-        show = { hyper, "Space" }
-    },
-    fn = function(s)
-        s:loadPlugins({"useractions"})
-        s.plugins.useractions.actions = {
-            ["DuckDuckGo"] = { url = "https://duckduckgo.com/?q=${query}&kp=-1&kl=in-en&kn=1&kz=1&kac=1&kae=d&k1=-1", icon="favicon", keyword="d" },
-            ["MDN"] = { url = "https://developer.mozilla.org/en-US/search?q=${query}", icon="favicon", keyword="mdn" },
-            ["Google"] = { url = "https://www.google.co.in/search?q=${query}", icon="favicon", keyword="g " }            
-        }
-    end,
-    start = true
-  }
-)
+-- Install:andUse("Seal",
+--   {
+--     hotkeys = {
+--         show = { hyper, "Space" }
+--     },
+--     fn = function(s)
+--         s:loadPlugins({"useractions"})
+--         s.plugins.useractions.actions = {
+--             ["DuckDuckGo"] = { url = "https://duckduckgo.com/?q=${query}&kp=-1&kl=in-en&kn=1&kz=1&kac=1&kae=d&k1=-1", icon="favicon", keyword="d" },
+--             ["MDN"] = { url = "https://developer.mozilla.org/en-US/search?q=${query}", icon="favicon", keyword="mdn" },
+--             ["Google"] = { url = "https://www.google.co.in/search?q=${query}", icon="favicon", keyword="g " }            
+--         }
+--     end,
+--     start = true
+--   }
+-- )
 
 
 Install:andUse("WindowGrid",

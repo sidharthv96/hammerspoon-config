@@ -7,8 +7,7 @@ local applicationHotkeys = {
   s = 'Slack',
   c = 'Visual Studio Code',
   p = 'Postman',
-  z = 'Zoom',
-  v = 'Cisco AnyConnect Secure Mobility Client'
+  z = 'Zoom'
 }
 
 local killMode = false

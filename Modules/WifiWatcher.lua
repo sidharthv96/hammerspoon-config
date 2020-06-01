@@ -18,6 +18,7 @@ end
 
 local muteSSID = {
   ["Hacker"] = true,
+  ["Hacker_5G"] = true,
   ["OnePlus 7T"] = true,
   ["clear-corporate"] = false
 }
