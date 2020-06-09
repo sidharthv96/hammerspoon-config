@@ -22,7 +22,6 @@ if processExists is true then
 			quit
 		end tell
 	end try
-	delay 2
 else
 	tell application targetApp
 		activate
@@ -40,6 +39,5 @@ else
 			keystroke PSWD as text
 			keystroke return
 		end tell
-		
 	end tell
 end if
