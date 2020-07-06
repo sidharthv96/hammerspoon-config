@@ -7,7 +7,6 @@ local applicationHotkeys = {
   s = 'Slack',
   c = 'Visual Studio Code',
   p = 'Postman',
-  z = 'Zoom'
 }
 
 local killMode = false

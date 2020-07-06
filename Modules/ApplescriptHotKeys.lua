@@ -1,7 +1,8 @@
 require("common")
 
 local applicationHotkeys = {
-  v = 'vpn'
+  v = 'vpn',
+  ['-'] = 'mute_zoom'
 }
 
 for key, app in pairs(applicationHotkeys) do
